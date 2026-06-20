@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+
+}
+.main_box{
+    background: #0f172a;
+    height: 100vh;
+    background-size: cover;
+}
+.btn_one{
+    color:white;
+    font: size 40px;
+    font-weight: 700;
+    position: absolute;
+    left:16px;
+    line-height: 60px;
+    cursor: pointer;
+     transition: all 0.2s linear;
+
+
+}
+.sidebar_menu{
+    position: fixed;
+    left: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #1e293b1a;
+    box-shadow: 0 0 6px rgb(255,255,255,0.5);
+    transition: all 0.3s linear;
+
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow:0 0 4px rgb(255,255,255,0.5);
+    height: 60px;
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left:60px;
+    color:#f8fafc;
+    text-decoration:none ;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.sidebar_menu .btn_two i{
+    color:white;
+    font: size 40px;
+    line-height: 60px;
+    position: absolute;
+    left:275px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.sidebar_menu .menu{
+    width:100%;
+    position: absolute;
+    top:80px;
+  
+
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+
+}
+.dashboard i{
+    color:#2563EB;
+}
+.tasks i{
+    color:#22C55E;
+}
+.goals i{
+    color:#8B5CF6
+}
+.progress i{
+    color: #06B6D4;
+}
+.profile i{
+    color: #6366F1;
+}
+.settings i{
+    color: #64748B;
+}
+
+.sidebar_menu .menu a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.sidebar_menu .menu i{
+      padding-right: 8px;
+}
+.sidebar_menu .social_media{
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 100px; 
+    bottom: 50px;
+}
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+
+
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow:0 0 4px rgb(255,255,255,0.5);
+
+}
+.btn_one i:hover{
+    font-size: 40px;
+}
+.btn_two i:hover{
+    font-size: 30px;
+}
+.sidebar_menu .sidebar_menu i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
+}
+
+.menu-item{
+    color:#E5E7EB;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.menu-item i{
+    transition:0.3s;
+}
+
+.menu-item{
+    padding:12px 16px;
+    border-radius:12px;
+    transition:0.3s;
+}
+/* Dashboard */
+.dashboard:hover{
+    background:#2563EB;
+}
+
+/* Tasks */
+.tasks:hover{
+    background:#22C55E;
+}
+
+/* Goals */
+.goals:hover{
+    background:#8B5CF6;
+}
+
+/* Progress */
+.progress:hover{
+    background:#06B6D4;
+}
+
+/* Profile */
+.profile:hover{
+    background:#6366F1;
+}
+
+/* Settings */
+.settings:hover{
+    background:#64748B;
+}
+.dashboard i:hover{
+    color:white;
+}
+.tasks i:hover{
+    color:white;
+}
+.goals i:hover{
+    color:white;
+}
+.progress i:hover{
+    color: white;
+}
+.profile i:hover{
+    color: white;
+}
+.settings i:hover{
+    color: white;
+}
